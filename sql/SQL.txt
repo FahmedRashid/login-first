@@ -1,0 +1,32 @@
+-- create a table --
+
+CREATE TABLE create_story_beta (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    subject varchar(255) NOT NULL,
+    description TEXT,
+    attachment BLOB,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    );
+
+-- ALTER TABLE -- add new column after existing column --
+ALTER TABLE	create_story_beta
+ADD COLUMN attachment2 BLOB AFTER attachment;
+
+-- ALTER TABLE - RENAME COLUMN--
+ALTER TABLE create_story_beta
+CHANGE COLUMN subject subject_name VARCHAR(255);
+
+-- ALTER TABLE - DROP COLUMN --
+ALTER TABLE create_story_beta
+DROP COLUMN attachment;
+
+-- ALTER TABLE - MODIFY COLUMN DATATYPE --
+ALTER TABLE create_story_beta
+MODIFY COLUMN impact_analysis VARCHAR(255);
+
+-- ALTER TABLE - ADD COLUMN and DATATYPE --
+ALTER TABLE create_story_beta
+ADD COLUMN testing_notes VARCHAR(255),
+ADD COLUMN story_examples VARCHAR(255),
+ADD COLUMN story_attachments BLOB;

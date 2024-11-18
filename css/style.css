@@ -1,0 +1,200 @@
+/* styles.css */
+
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #4a90e2, #50c3b3);
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Change to relative for better layout */
+}
+
+.navbar-brand a {
+    font-size: 1.5em;
+    color: #4a90e2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #4a90e2;
+}
+
+/* Button Styles */
+.btn {
+    background-color: red;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #3b7bca;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Main Content Area */
+.main-content {
+    flex: 3; /* Take more space than sidebar */
+    margin-right: 20px; /* Spacing between main and sidebar */
+}
+
+.sidebar {
+    flex: 1; /* Sidebar takes less space */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form and Field Styles */
+h1 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+.field {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field label {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.field input[type="text"],
+.field input[type="password"],
+.field select,
+.field textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+.field input[type="text"]:focus,
+.field input[type="password"]:focus,
+.field select:focus,
+.field textarea:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+/* Textarea Specific Styles */
+textarea {
+    max-width: 100%; /* Prevent horizontal stretch */
+    resize: none; /* Disable resizing */
+}
+
+/* Bug List Table */
+.bug-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bug-table th,
+.bug-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.bug-table th {
+    background-color: #243b55;
+    color: #fff;
+}
+
+.bug-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Status Labels */
+.status {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.status.open {
+    background-color: #ff6600;
+}
+
+.status.in-progress {
+    background-color: #4a90e2;
+}
+
+.status.closed {
+    background-color: #4caf50;
+}
+
+/* Link and Message Styles */
+.link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.message {
+    text-align: center;
+    background-color: #f9eded;
+    padding: 15px 0px;
+    border: 1px solid #699053;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: red;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+

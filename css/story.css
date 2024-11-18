@@ -1,0 +1,180 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body background */
+body {
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #243b55;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 1em;
+}
+
+.navbar a:hover {
+    background-color: #ff6600; /* Orange accent */
+    border-radius: 5px;
+}
+
+.navbar-brand a {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff6600; /* Brand accent */
+}
+
+/* Layout */
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+}
+
+/* Main Content */
+.main-content {
+    flex: 2.5;
+    padding: 65px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h1 {
+    font-size: 1.8em;
+    color: #243b55;
+    margin-bottom: 20px;
+}
+
+/* Form Fields */
+.field {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field label {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.field input[type="text"],
+.field textarea,
+.field input[type="file"],
+.field select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+}
+
+.field textarea {
+    resize: none;
+    height: 80px;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #243b55;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff6600;
+}
+
+/* Sidebar  padding: 65px;*/
+.sidebar {
+    flex: 1;
+    padding: 65px;
+    background-color: #eaeef2;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.sidebar-item {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-item label {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        margin-top: 20px;
+    }
+}
+
+.logo{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff6600; /* Brand accent */
+}
+#progress-bar {
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+
+#progress-status {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+div.message {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div.message p {
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }

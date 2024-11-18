@@ -1,0 +1,6 @@
+Date 11-03-2024
+folderize your docs -- Done
+Link all the pages -- Done
+Create a new Nav Bar-- Done
+Create a new footer section -- Done
+Sync all the pages from 2.0 with the new footer -- Wont do

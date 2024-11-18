@@ -1,0 +1,9 @@
+Analytics
+how many tickets was filed with in 1 month. 
+how fast they are being filed and how fast they are getting closed. 
+
+
+--Make an analytics graphs to show how fast we are closing cases after they are being created--
+Case/ticket frequency in a month
+How many are closed in a month 
+how many tickets are getting carried over in a month

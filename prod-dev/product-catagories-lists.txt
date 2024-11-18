@@ -1,0 +1,44 @@
+1. Overall Platform
+2. edit page
+3. Home page
+4. register page
+5. index page
+6. All Pages
+
+---need to create a page where the following fields will need to be saved in database 
+
+---a page that will be under add categories a form asking
+1.name of the category --done
+2.Catagory type --done
+3.Description --done
+4. save button -- done
+
+Create a table -- done
+
+link the table with the form -- Done
+
+
+-----Done-----11/02/2024-----Done----------
+
+--Data Entries-- Patch 1.2
+Overall Platform:
+This category states that this story/bug needs to be addressed throughout the Platform.
+Edit page:
+This category states that this story/bug must only be addressed on the edit.php page.
+Home page:
+This category states that this story/bug must only be addressed on the home.php page.
+Register page:
+This category states that this story/bug must only be addressed on the register.php page.
+Index page:
+This category states that this story/bug must only be addressed on the index.php page.
+
+
+
+
+
+
+
+
+
+
+

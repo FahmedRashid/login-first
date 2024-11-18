@@ -1,0 +1,12 @@
+Edit page. 
+
+
+Product feature for Page Edit 1: Unable to update -- Done
+Product feature for Page Edit 2: Once updated The system will show that Update was successful. -- Done
+Product feature for Page Edit 3: After update show the updated value under the successful promt
+
+Home Page:
+Need to add a footer that will keep tract of the pages that are being updated for the time being. 
+
+
+

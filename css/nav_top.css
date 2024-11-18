@@ -1,0 +1,258 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f3f4f6; /* Match the body background color */
+    color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #243b55; /* Dark navbar background */
+    color: #ffffff; /* White text for navbar */
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Logo Section */
+.navbar-logo img {
+    height: 40px; /* Adjust logo height */
+    cursor: pointer;
+}
+
+/* Search Bar Styling */
+.navbar-search {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Take the remaining space */
+    margin: 0 20px; /* Space around the search bar */
+}
+
+.search-category {
+    padding: 10px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px 0 0 5px;
+    font-size: 1em;
+    background-color: #ffffff; /* White for dropdown */
+    color: #243b55; /* Change to match navbar */
+}
+
+.navbar-search input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 0 5px 5px 0;
+    flex: 1; /* Grow to fill space */
+    max-width: 400px; /* Limit max width */
+    transition: border 0.3s; /* Smooth border transition */
+}
+
+.navbar-search input[type="text"]:focus {
+    border-color: #ff6600; /* Highlighted orange on focus */
+    outline: none; /* Remove default outline */
+}
+
+.search-btn {
+    padding: 10px 15px;
+    border: none;
+    background-color: #ff6600; /* Orange accent */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px; /* Space between input and button */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.search-btn:hover {
+    background-color: #ff4500; /* Darker orange on hover */
+}
+
+#progress-bar {
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+
+#progress-status {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+div.message {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div.message p {
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}
+
+
+/* Navbar Tabs */
+.navbar-tabs {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-tabs a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 0 5px;
+    transition: background 0.3s, color 0.3s; /* Transition for color and background */
+    font-weight: 500; /* Medium weight text */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.navbar-tabs a:hover {
+    background-color: #ff6600; /* Orange accent hover */
+}
+
+/* Dropdown Button */
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    background-color: #243b55; /* Dark background for button */
+    color: #ffffff; /* White text */
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background 0.3s; /* Smooth background transition */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.dropbtn:hover {
+    background-color: #ff6600; /* Orange accent on hover */
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff; /* White dropdown */
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: #243b55; /* Dark color for dropdown items */
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(74, 144, 226, 0.1); /* Light blue on hover */
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Navbar Icons */
+.navbar-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    color: #ffffff; /* White text for icons */
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: transform 0.3s; /* Smooth transform transition */
+}
+
+.icon-button:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Profile Icon Styling */
+.profile-icon {
+    height: 40px; /* Set desired height */
+    width: 40px; /* Set desired width */
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid #ffffff; /* White border for contrast */
+    overflow: hidden; /* Ensure overflow is hidden for image */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth effects */
+}
+
+.profile-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}
+
+/* Profile Dropdown */
+.profile-dropdown {
+    position: relative; /* Ensure the dropdown is positioned relative to this parent */
+}
+
+.profile-dropdown .dropdown-content {
+    display: none; /* Hide by default */
+    position: absolute; /* Positioning to allow for dropdown */
+    top: 100%; /* Position below the button */
+    right: 0; /* Align to the right */
+    background-color: #ffffff; /* Background for dropdown */
+    min-width: 160px; /* Minimum width */
+    z-index: 1; /* Ensure it's above other content */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Show dropdown on hover */
+.profile-dropdown:hover .dropdown-content {
+    display: block; /* Show the dropdown when hovering over the profile icon */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items on mobile */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .navbar-search {
+        width: 100%; /* Full width for search */
+        margin: 10px 0; /* Space around search */
+    }
+
+    .navbar-tabs {
+        flex-direction: column; /* Stack tabs vertically */
+        width: 100%; /* Full width for tabs */
+    }
+
+    .navbar-tabs a {
+        padding: 10px; /* Larger padding for easier tapping */
+        margin: 0; /* Remove margin */
+        width: 100%; /* Full width for links */
+    }
+
+    .navbar-icons {
+        width: 100%; /* Full width for icons */
+        justify-content: flex-end; /* Align icons to the right */
+    }
+}

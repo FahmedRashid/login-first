@@ -1,0 +1,30 @@
+Create a page where you can upload new stories.
+
+
+Subject/Title
+Description
+Impact Analysis
+Testing Notes
+examples
+attachments
+linked issues
+activity
+
+
+
+Sprint
+Assignee
+Reporter
+Test Owner
+QA Done?
+Demo Done?
+Category Name
+Parent
+Priority
+
+Task: 1 Create a page which will save these info accordingly. 
+
+
+
+
+

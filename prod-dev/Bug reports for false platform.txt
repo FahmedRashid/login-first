@@ -1,0 +1,8 @@
+Bug Page for my platform
+
+The URL is showing the Id value of every page.
+Logo needs to show an actual logo or image.
+
+"Warning: Undefined variable $res_Id in C:\xampp\htdocs\login\home.php on line 42" on Home.php -- this happened because there were no active login sessions. This gets fixed once the user logs in. -- Need a product feedback to have this error changed soon. 
+
+

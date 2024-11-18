@@ -1,0 +1,8 @@
+11-06-2024 -- patch 1.4
+
+
+Create_story.php developments. 
+Create a test.php > Try saving the left side of the form into the database. 
+test if the information gets saved on the test database. 
+
+Apply the right sidebar on your code> try saving them on database
