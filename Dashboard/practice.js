@@ -20,3 +20,10 @@ function test(){
         alert("Thank you for adding something." + " " +forCategory);
     }
 };
+
+//log out alert
+
+function showLogoutAlert(){
+    alert("You are about to log out");
+};
+
