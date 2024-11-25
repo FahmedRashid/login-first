@@ -112,8 +112,113 @@
 // `;
 // console.log(html);
 
-
 //----------------------------------------------------------------------------
 
 //Arrays
+
+//let ninjas = ['Fahmed', 'Rashid', 'Anu'];
+// ninjas[0]= 'First Name';
+// console.log(ninjas[0]);
+// let size = ninjas.length;
+// console.log(size);
+//let ages = [20,25,30,35];
+// console.log(ages[2]);
+//let random = ['fahmed', 'is', 28, 'years', 'old'];
+// console.log(random)
+// console.log(ages.length);
+
+//Array methods
+
+// let result = ninjas.join('-');
+// console.log(result);
+
+// let result = ninjas.indexOf('Rashid')
+// console.log(result);
+
+// let result = ninjas.concat('ken', 'crystal')
+// console.log(result);
+
+//let result = ninjas.push('ken');
+// console.log(ninjas);
+
+// result = ninjas.pop();
+// console.log(result);
+
+//-----------------------------------------------
+
+//Null and Undefined
+
+// let age;
+// age = null;
+// console.log(age, age+3, `the age is ${age}`);
+
+//Boolean--true--false
+//booleans & comparisons
+// console.log(true,false, 'true', 'false');
+
+//methods can return booleans
+//let email = 'admin@gmail.com';
+//let names = ['fahmed', 'rashid', 'anu']
+// let result = email.includes('@')
+// let result = names.includes('fahmed')
+// console.log(result);
+
+//comparison operatios
+//let age = 25;
+// console.log(age == 25);
+// console.log(age == 30);
+// console.log(age != 30);
+// console.log(age != 25);
+// console.log(age > 20);
+// console.log(age < 20);
+// console.log(age <= 20);
+// console.log(age >= 20);
+
+// let name = 'fahmed';
+// console.log(name == 'fahmed');
+// console.log(name == 'Fahmed');
+// console.log(name > 'Rashid');
+// console.log(name > 'Fahmed');
+// console.log(name < 'Rashid');
+// console.log(name < 'Rashid');
+
+// let age = 25;
+
+//loose comparison (different types can still be equal)
+// console.log(age == 25);
+// console.log(age != 25);
+// console.log(age == '25');
+// console.log(age != '25');
+
+// strict comparison (different types cannot be equal)
+// console.log(age === 25);
+// console.log(age === '25');
+// console.log(age !== 25);
+// console.log(age !== '25');
+
+
+//type conversion
+// let score = '100';
+// console.log(score +1);
+// console.log(typeof score);
+// score = Number(score);
+// console.log(typeof score);
+// console.log(score +1);
+
+// let result = Number('hello')
+// console.log(result); // NaN
+
+// let result = String(50);
+// console.log(result);
+// let result = Boolean(0);
+// let result = Boolean('0')
+// console.log(result, typeof result);
+
+
+
+
+
+
+
+
 
