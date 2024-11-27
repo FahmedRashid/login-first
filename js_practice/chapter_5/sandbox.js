@@ -7,20 +7,15 @@
 //     location: 'Dhaka',
 //     blogs: ['Why mac and cheese rules', '10 things to do with Fahmed']
 // };
-
 // console.log(user);
 // console.log(user.name); // dot notation
-
-// // user.age = 35;
+// user.age = 35;
 // console.log(user.age);
-
 // console.log(user['email']);
 // user['name'] = 'anu';
 // console.log(user['name']);
-
 // const key = 'location';
 // console.log(user[key])
-
 // console.log(typeof user); //type of
 
 // how to add method in objects -------------------------------------
@@ -51,6 +46,9 @@
 // user.login();
 // user.logout();
 // user.logBlogs();
+// console.log(user.name);
+// user.name = 'haha';
+// console.log(user.name);
 
 
 //Array can also have objects stored into them
@@ -58,6 +56,7 @@
 //     {title: 'Why mac and cheese rules', likes: 30},
 //     {title: '10 things to do with Fahmed', likes: 50},
 // ];
+
 // console.log(blogs)
 
 // Math object -- pre-made
@@ -72,11 +71,34 @@
 // console.log(Math.ceil(area)); // largest int
 // console.log(Math.trunc(area)); // only int
 
-// // random numbers generation
+// random numbers generation
 // const random = Math.random();
 // console.log(random); // any random between 0 - 1
 // console.log(Math.round(random*100)); //random between 1-100
 
 
+// primitive values
 
+// let scoreOne = 50;
+// let scoreTwo = scoreOne;
 
+// console.log(
+//     `scoreOne: ${scoreOne}`,
+//     `scoreTwo: ${scoreTwo}`
+// )
+// scoreOne = 100;
+// console.log(
+//     `scoreOne: ${scoreOne}`,
+//     `scoreTwo: ${scoreTwo}`
+// )
+
+//reference values
+// const userOne={
+//     name: 'ryu',
+//     age: 30
+// };
+// const userTwo = userOne;
+// console.log(userOne, userTwo);
+// userOne.age = 40;
+// userOne.name = 'Fahmed'
+// console.log(userOne, userTwo);
