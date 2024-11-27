@@ -94,28 +94,44 @@
 // content.classList.add('succuess')//remove a class
 
 //practice to add error and success tags on p
-const param = document.querySelectorAll('p');
-console.log(param.classList);
-param.forEach(para=>{
-    console.log(para)
-});
-param[0].classList.add('error')
-param[1].classList.add('success')
-// param[2].classList.length === 0;
-const abc = param[2].classList.length;
-if(abc !== 0){
-    console.log('This has a value');
-}else{
-    param[2].classList.add('lorem');
-    console.log(param[2]);
-}
-param[3].classList.add('success')
-param[4].classList.add('error')
-param[5].classList.add('lorem')
-param[6].classList.add('error')
-param[7].classList.add('success')
+// const param = document.querySelectorAll('p');
+// param.forEach(para=>{
+//     console.log(para)
+// });
+// param[0].classList.add('error')
+// param[1].classList.add('success')
+// // param[2].classList.length === 0;
+// const abc = param[2].classList.length;
+// if(abc !== 0){
+//     console.log('This has a value');
+// }else{
+//     param[2].classList.add('lorem');
+//     console.log(param[2]);
+// }
+// param[3].classList.add('success')
+// param[4].classList.add('error')
+// param[5].classList.add('lorem')
+// param[6].classList.add('error')
+// param[7].classList.add('success')
+// console.log(param.classList);
 
 
+// using if else to include class error to text content 
+// const paras= document.querySelectorAll('p');
+// paras.forEach(p =>{
+//     // console.log(p)
+//     if(p.textContent.includes('error')){
+//         p.classList.add('error');
+//     }
+//     if(p.textContent.includes('success')){
+//         p.classList.add('success');
+//     }else{
+//         p.classList.add('lorem')
+//     }
+// });
+// const title = document.querySelectorAll('.title');
+// title[0].classList.toggle('test');
+// title[0].classList.toggle('test');
 
 
 
